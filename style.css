@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	padding:0;
+	margin:0;
+}
+body
+{
+	background:#fff;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-align:center;
+}
+#header
+{
+	background:#00a2d1;
+	width:100%;
+	height:50px;
+	color:#fff;
+	font-size:36px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+#body
+{
+	margin-top:100px;
+}
+#body table
+{
+	margin:0 auto;
+	position:relative;
+	bottom:50px;
+}
+table td,th
+{
+	padding:20px;
+	border: solid #9fa8b0 1px;
+	border-collapse:collapse;
+}
+#footer
+{
+	text-align:center;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:0 auto;
+	bottom:50px;
+}
