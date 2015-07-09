@@ -14,12 +14,12 @@ body
 }
 #header
 {
-	background:#00a2d1;
+	background:#041329;
 	width:100%;
 	height:50px;
-	color:#fff;
+	color:white;
 	font-size:36px;
-	font-family:Verdana, Geneva, sans-serif;
+	font-family:Trebuchet MS;
 }
 #body
 {
@@ -41,8 +41,11 @@ table td,th
 {
 	text-align:center;
 	position:absolute;
+	background:#145ECC;
+	font-size:20px;
+	color:white;
 	left:0;
 	right:0;
 	margin:0 auto;
-	bottom:50px;
+	bottom:0px;
 }

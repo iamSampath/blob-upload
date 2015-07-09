@@ -17,7 +17,6 @@ include_once 'dbconfig.php';
 <body>
 <?php include_once 'header.php'?>
 <div id="body">
-<a href="logon-home.php"><img src="img/home.png" width="60px" height="60px" alt="home.png" align="left"/></a>
 	<form action="upload.php" method="post" enctype="multipart/form-data">
 	<input type="file" name="file" />
 	<button type="submit" name="btn-upload">upload</button>
@@ -45,5 +44,6 @@ include_once 'dbconfig.php';
 	}
 	?>
 </div>
+<?php include_once 'footer.php'; ?>
 </body>
 </html>

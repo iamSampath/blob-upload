@@ -1,3 +1,3 @@
 <div id="footer">
-<label align="center">  </label>
+<tt>&copy; Copyright 2015 Sampath medarametla. All rights reserved.</tt>
 </div>
