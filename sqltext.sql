@@ -10,12 +10,11 @@
 */
 use custom_db;
 
-CREATE TABLE `uploads` (
+CREATE TABLE `tbl_uploads` (
   `fileid` int(11) NOT NULL AUTO_INCREMENT,
   `filename` varchar(100) NOT NULL,
   `filetype` varchar(30) NOT NULL,
   `size` int(11) NOT NULL,
   `data` mediumblob NOT NULL,
-  `email` varchar(255) NOT NULL,
   PRIMARY KEY (`fileid`)
 )
