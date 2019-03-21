@@ -1,6 +1,6 @@
 <!-- 
 		Author: Sampath Kumar Medarametla
-		Email: skmeadarametla@gmail.com
+		Email: skmedarametla@gmail.com
 		All rights reserved to Sampath Kumar Medarametla
 		Free to use with copyright
 		Date: 7/9/2015
@@ -22,6 +22,7 @@
 				     header("Content-Disposition: attachment; filename=$file");
 				     ob_clean();
 				     flush();
+		                     $content = stripslashes($content);
 				     echo $content;
 				     mysqli_close($connection);
 				     exit;
