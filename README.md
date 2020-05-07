@@ -1,5 +1,6 @@
 # blob-upload
-This code is all about uploading a file ans store it in the database as a blob file and retrieving the file blob file 
-in appropriate format.
+The Code implements the following:
+=> Storing a file
+=> Retriving a file
 
 Key Technologies used are PHP,HTML5
